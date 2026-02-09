@@ -44,9 +44,8 @@ jobs:
         bandit -r code/python
 
     - name: Lint DockerFile
-      uses: hadolint/hadolint-action@v3.1.0
-      with:
-        dockerfile: code/python/Dockerfile
+      run: |
+        docker run --rm -i hadolint/hadolint < code/python/Dockerfile
   docker:
     runs-on: ubuntu-latest
     needs: linting
