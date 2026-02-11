@@ -1,6 +1,6 @@
 name: First Action Workflow
 on:
-  workflow_dispach:
+  workflow_dispatch:
 
 jobs:
   say_hello:
