@@ -1,3 +1,4 @@
+name: First Action Workflow
 on:
   workflow_dispach:
 
