@@ -1,6 +1,7 @@
 name: Event Commit - Single Job
 
 on:
+# se activa cuando hay un puch na main
   push:
     branches:
       - main

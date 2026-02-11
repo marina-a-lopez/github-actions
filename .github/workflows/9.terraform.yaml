@@ -31,7 +31,7 @@ jobs:
     needs: terraform-fmt
 
     steps:
-    # Checkout the repository
+    # Checkout the repository pq es otro step
     - name: Checkout code
       uses: actions/checkout@v3
 
